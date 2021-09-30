@@ -841,7 +841,8 @@ def checkCurrentEditor(self):
     if mw.migakuDictionary and mw.migakuDictionary.isVisible():
         mw.migakuDictionary.dict.checkEditorClose(self.editor)
 
-Browser._onRowChanged = wrap(Browser._onRowChanged, setBrowserEditor)
+print(dir(Browser))
+Browser.onRowChanged = wrap(Browser.onRowChanged, setBrowserEditor)
 
 AddCards._reject = wrap(AddCards._reject, checkCurrentEditor)
 EditCurrent._saveAndClose = wrap(EditCurrent._saveAndClose, checkCurrentEditor)
