@@ -1,0 +1,27 @@
+_header
+
+
+Addons
+
+
+|   182970692 | AJT Browser Play Button                    | 2021-09-30 Thu |                                             |
+|   278530045 | Migaku  Japanese                           | 2021-09-30 Thu | Some warning windows might are not be shown |
+|   817108664 | Anki Simulator                             | 2021-09-30 Thu |                                             |
+|   819023663 | RefoldEase                                 | 2021-09-30 Thu |                                             |
+|   909972618 | Kanji Grid                                 | 2021-09-30 Thu |                                             |
+|  1021636467 | Learn now Button                           | 2021-09-30 Thu |                                             |
+|  1250448937 | Kakijun - Kanji stroke order               | 2021-09-30 Thu |                                             |
+|  1255924302 | AJT Mortician                              | 2021-09-30 Thu |                                             |
+|  1582755932 | Kanji Keyword Overlay anki 21              | 2021-09-30 Thu |                                             |
+|  1655992655 | Migaku Japanese                            | 2021-09-30 Thu | Ok                                          |
+|  1655992655 | Migaku Dictionary Plus                     | 2021-09-30 Thu |                                             |
+|  1779060522 | True Retention by Card Maturity Simplified | 2021-09-30 Thu |                                             |
+| MecabUnidic |                                            | 2021-09-30 Thu |                                             |
+|    MorphMan |                                            | 2021-09-30 Thu |                                             |
+
+
+My own addons
+
+|   dmgFilter |                                            | 2021-09-30 Thu |                                             |
+|    dmgKanji |                                            | 2021-09-30 Thu |                                             |
+  
