@@ -270,14 +270,14 @@ def supportAccept(self):
 ogAccept = aqt.addons.ConfigEditor.accept
 aqt.addons.ConfigEditor.accept = supportAccept
 
-def customFind(self, query, order=False):
+def customFind(self, query, order=False, reverse=False):
     if 'nobr' in query:
         query = query.replace('nobr', '').replace('\n', '').replace('\r', '').strip()
         newquery = []
         for char in query:
             newquery.append(char)
         query = '*'.join(newquery)
-    return ogFind(self, query, order)
+    return ogFind(self, query, order, reverse)
 
 ogFind = Collection.find_cards
 Collection.find_cards = customFind

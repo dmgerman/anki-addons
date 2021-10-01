@@ -200,10 +200,15 @@ Are you sure you want to continue?"""
         self.cleanup()
         QDialog.accept(self)
 
-if not hasattr(ChangeModel, "migakuOveriddenMethods"):
-    print("ADDED THROUGH JP")
-    ChangeModel.migakuOveriddenMethods = True
-    ChangeModel.accept = migakuAccept
-    ChangeModel.modelChanged = migakuModelChanged
-    ChangeModel.rebuildTemplateMap = migakuRebuildTemplateMap
+# dmg: i am not sure what this is for. TODO
+#     i think it is to make sure to ack some operations
+#     they probably need to be used via callbacks instead of overrides
+#     comment for the time begin
+#
+#if not hasattr(ChangeModel, "migakuOveriddenMethods"):
+#    print("ADDED THROUGH JP")
+#    ChangeModel.migakuOveriddenMethods = True
+#    ChangeModel.accept = migakuAccept
+#    ChangeModel.modelChanged = migakuModelChanged
+#    ChangeModel.rebuildTemplateMap = migakuRebuildTemplateMap
 
