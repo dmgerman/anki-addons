@@ -66,3 +66,18 @@ select 1 + 2;
 #+begin_example
 3
 #+end_example
+
+#+begin_src C++ :main no :results output :flags -std=c++17 -Wall --pedantic -Werror
+#include <iostream>
+int main(void)
+{
+   std::cout << "Hello world" << std::endl;
+
+   return 0;
+}
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Hello world
+#+end_example
