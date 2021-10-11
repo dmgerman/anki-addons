@@ -6,11 +6,11 @@
 #+ARCHIVE: %s_done::
 #+TITLE: 
 #+CATEGORY: 
-#+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370
-#+PROPERTY: header-args:sqlite          :db /path/to/db  :colnames yes
-#+PROPERTY: header-args:C++             :results output :flags -std=c++17 -Wall --pedantic -Werror
+#+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370 :exports both
+#+PROPERTY: header-args:sqlite          :db /path/to/db  :colnames yes :exports both
+#+PROPERTY: header-args:C++             :results output :flags -std=c++17 -Wall --pedantic -Werror 
 #+PROPERTY: header-args:R               :results output  :colnames yes
-#+PROPERTY: header-args:python          :results output  :exports both
+#+PROPERTY: header-args:python          :results output  :exports both  
 #+OPTIONS: ^:nil
 #
 #
