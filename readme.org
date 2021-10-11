@@ -81,3 +81,10 @@ int main(void)
 #+begin_example
 Hello world
 #+end_example
+
+#+begin_src emacs-lisp :exports both
+(mapcar 'car org-latex-classes)
+#+end_src
+
+#+RESULTS:
+| article | report | book |
