@@ -58,7 +58,7 @@ My own addons
 |   dmgFilter |                                            | 2021-09-30 Thu |                                             |
 |    dmgKanji |                                            | 2021-09-30 Thu |                                             |
   
-#+begin_src sqlite :db /tmp/rip1022.db :results output
+#+begin_src sqlite :db /tmp/rip1022.db :results output :exports both
 select 1 + 2;
 #+end_src
 
@@ -67,7 +67,7 @@ select 1 + 2;
 3
 #+end_example
 
-#+begin_src C++ :main no :results output :flags -std=c++17 -Wall --pedantic -Werror
+#+begin_src C++ :main no :results output :flags -std=c++17 -Wall --pedantic -Werror :exports both
 #include <iostream>
 int main(void)
 {
