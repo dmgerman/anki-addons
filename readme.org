@@ -13,8 +13,8 @@ Addons
 |  1250448937 | Kakijun - Kanji stroke order               |   | 2021-09-30 Thu |                                             |
 |  1255924302 | AJT Mortician                              |   | 2021-09-30 Thu |                                             |
 |  1582755932 | Kanji Keyword Overlay anki 21              |   | 2021-09-30 Thu |                                             |
-|  1655992655 | Migaku Japanese                            |   | 2021-09-30 Thu | Ok                                          |
-|  1655992655 | Migaku Dictionary Plus                     |   | 2021-09-30 Thu |                                             |
+|  1655992655 | Migaku Japanese                            |   | 2021-09-30 Thu | MOdified to run in Anki 47                  |
+|  1655992655 | Migaku Dictionary Plus                     |   | 2021-09-30 Thu | MOdified to run in Anki 47                                            |
 |  1779060522 | True Retention by Card Maturity Simplified |   | 2021-09-30 Thu |                                             |
 |  2055492159 | Anki Connect                               |   | 2021-09-30 Thu |                                             |
 
