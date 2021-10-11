@@ -1,4 +1,31 @@
-_header
+#+STARTUP: showall
+#+STARTUP: lognotestate
+#+TAGS: research(r) uvic(u) today(y) todo(t) cooking(c)
+#+SEQ_TODO: TODO(t) STARTED(s) DEFERRED(r) CANCELLED(c) | WAITING(w) DELEGATED(d) APPT(a) DONE(d)
+#+DRAWERS: HIDDEN STATE
+#+ARCHIVE: %s_done::
+#+TITLE: 
+#+CATEGORY: 
+#+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370
+#+PROPERTY: header-args:sqlite          :db /path/to/db  :colnames yes
+#+PROPERTY: header-args:C++             :results output :flags -std=c++17 -Wall --pedantic -Werror
+#+PROPERTY: header-args:R               :results output  :colnames yes
+#+PROPERTY: header-args:python          :results output  :exports both
+#+OPTIONS: ^:nil
+#
+#
+# Documentation: https://orgmode.org/manual/index.html#Top
+#
+# Types of results: https://orgmode.org/manual/Results-of-Evaluation.html#Results-of-Evaluation
+#  :type  list, scalar,  verbatim, file, 
+#  :format code, drawer, html, latex, link, graphics,  org, pp, raw
+#  :exports code, both, results, none
+#
+# library of babel: maybe the answer is there:
+#  https://orgmode.org/worg/library-of-babel.html
+
+
+
 
 
 Addons
@@ -31,3 +58,11 @@ My own addons
 |   dmgFilter |                                            | 2021-09-30 Thu |                                             |
 |    dmgKanji |                                            | 2021-09-30 Thu |                                             |
   
+#+begin_src sqlite :db /tmp/rip1022.db
+select 1 + 2;
+#+end_src
+
+#+RESULTS:
+#+begin_example
+3
+#+end_example
